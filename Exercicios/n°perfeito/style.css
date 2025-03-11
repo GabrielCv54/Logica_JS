@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+    background-image:url('../imgs/numeros.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:cursive ;
+}
+
+.title{
+    background-color: blue;
+}
+
+form{
+    background-color: rgb(0, 110, 255);
+    outline: 10px lightsteelblue inset;
+    border:10px black outset ;
+    margin: 80px;
+}

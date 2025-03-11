@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Lan</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='lan.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=flight" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=computer" />
+    
+</head>
+<body>
+    <form>
+        <h1>Lan house de Aeroporto</h1>
+        <span class="material-symbols-outlined">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M280-80v-100l120-84v-144L80-280v-120l320-224v-176q0-33 23.5-56.5T480-880q33 0 56.5 23.5T560-800v176l320 224v120L560-408v144l120 84v100l-200-60-200 60Z"/></svg>
+            </span>
+     <label for="value">Valor por 15min de Uso R$: </label>
+     <input type="number" name="price" id="price"><br>
+     <label for="time">Tempo de uso do cliente</label>
+     <input type="number" name="time" id="time"><br>
+     <input type="button"  value="Calcular o preço total" onclick="lanHouse()"><br>
+     <label for="total" id="total"></label><br>
+     <span class="material-symbols-outlined">
+        computer
+        </span>
+    </form>
+    <script src='lan.js'></script>
+</body>
+</html>

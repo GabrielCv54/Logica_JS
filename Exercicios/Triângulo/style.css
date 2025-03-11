@@ -1,0 +1,19 @@
+body{
+    background-image: url('/Exercicios/imgs/triangle.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+
+div{
+    background-color: brown;
+    position: static;
+    bottom:0;
+    margin: 100px;
+    border-radius: 20px;
+}
+
+button{
+   padding: 12px;
+   margin: 20px;
+}

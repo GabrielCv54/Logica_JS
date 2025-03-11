@@ -1,0 +1,20 @@
+body{
+    background-image: url('/Exercicios/imgs/frutas-verduras-mas-beneficios-770x523.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#frut{
+    background-color: rgb(236, 82, 82);
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 120px;
+    outline: 10px outset rgb(5, 139, 0);
+    border-radius: 20px;
+    border:10px rgb(0, 0, 0) dotted;
+}

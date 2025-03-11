@@ -1,0 +1,18 @@
+body{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 15px;
+ background-image: url('../imgs/LanHouse.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+
+
+form{
+    background-color: rgb(44, 188, 255);
+    padding: 150px;
+    margin: 50px;
+    text-align: center;
+    border-right: rgb(26, 24, 24) 20px solid;
+    border-top: 10px inset rgb(158, 153, 153);
+}

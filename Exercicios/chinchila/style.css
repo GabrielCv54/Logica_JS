@@ -1,0 +1,34 @@
+body{
+    background-image: url('../imgs/chinchila.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    margin: 160px;
+    padding: 100px;
+    background-color: brown;
+    border-radius: 50px;
+    border-image: url('../imgs/icons8-cenoura-16.png');
+}
+
+label{
+    color: yellow;
+
+}
+
+input{
+    border-radius: 20px;
+    box-shadow: 15px;
+    
+}
+
+button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 60px;
+   /* border-style: dotted;*/
+}

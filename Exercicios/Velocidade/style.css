@@ -1,0 +1,15 @@
+body{
+    background-image: url('../imgs/velocidade.png');
+    background-repeat: no-repeat;
+    background-position: left 1px;
+   
+     background-size: cover;
+     background-color: rgb(3, 152, 252);
+}
+
+form.fast{
+  margin: 400px;
+  background-color: gray;
+  padding: 300px;
+  border: darkcyan 5px  groove;
+}

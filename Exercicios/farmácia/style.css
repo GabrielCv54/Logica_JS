@@ -1,0 +1,23 @@
+body{
+    background-image:url('imgs/FarmaciaFarmaceutica-MDCSA.jpg') ;
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin: 150px;
+    text-align: center;
+    font-family: monospace;
+    
+}
+
+form{
+    text-align: center;
+    background-color: rgb(165, 142, 42);
+    font-family: monospace;
+    margin: 150px;
+    height: 230px;
+    padding: 100px;
+    border-radius: 50px;
+}

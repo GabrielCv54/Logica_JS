@@ -1,0 +1,17 @@
+body{
+    background-image: url('../imgs/numeros.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+div.Ex{
+    text-align: center;
+    margin: 300px;
+    background-color: rgb(4, 28, 165);
+    padding: 150px;
+    border-style: groove;
+    border-radius: 30px;
+}
