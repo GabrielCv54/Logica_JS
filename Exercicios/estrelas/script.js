@@ -3,17 +3,11 @@ function stars(){
 
     let response = ''
     let i = 0
-    while(i<lines){
-        i++
-        
-        response += '*' 
-        if(i==lines){
-            response+='<br>'
-        }
-        
-      
-    }
-    document.getElementById('p').innerHTML = response  
+    while(i<lines){        
+        response += '*' +'<br>' 
 
-  
+        i++
+    }
+    
+    document.getElementById('p').innerHTML = response 
 }
