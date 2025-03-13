@@ -5,7 +5,7 @@ for(let i=0;i<10;i++){
 }
 console.log(text) */
 
-function countPrime(){
+/* function countPrime(){
   var number = document.getElementById('number');
   var response = document.getElementById('response');
 
@@ -42,4 +42,6 @@ function countPrime(){
   }else{
     response.textContent = n + ' Não é primo'
   }
-}
+} */
+
+

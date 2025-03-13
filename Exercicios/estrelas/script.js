@@ -5,10 +5,13 @@ function stars(){
     let i = 0
     while(i<lines){
         i++
-        response += '*' + '<br>'
+        
+        response += '*' 
         if(i==lines){
-            response+='.'
+            response+='<br>'
         }
+        
+      
     }
     document.getElementById('p').innerHTML = response  
 

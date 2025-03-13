@@ -3,10 +3,12 @@ function contador(){
     var year = Number.parseInt(document.getElementById('years').value);
 
 let txt = ''  
-for(let counter=0;counter<year;counter++){
-        txt+= "Ano: "+((chinchila*3)*counter)+ " Chinchilas"+"<br>";
-        if(counter == 0){
-            txt+="Ano: "+(chinchila*3) + " Chinchilas"+"<br>"
+for(let counter=1;counter<=year;counter++){
+
+        if(counter == 1){
+            txt+=`${counter}°Ano: `+(chinchila*counter) + " Chinchilas"+"<br>"
+        }else{
+            txt+= `${counter}°Ano: `+((chinchila*=3))+ " Chinchilas"+"<br>";
         }
         /*document.querySelector('p') = `${counter}°Ano: ${(chinchila*3)*counter}`*/
 }
