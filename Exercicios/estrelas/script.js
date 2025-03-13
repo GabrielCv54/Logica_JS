@@ -4,11 +4,11 @@ function stars(){
     let response = ''
     let i = 0
     while(i<lines){
-        let stars=0
         i++
-        stars++
-        stars+='*'
-        response += stars + '<br>'
+        response += '*' + '<br>'
+        if(i==lines){
+            response+='.'
+        }
     }
     document.getElementById('p').innerHTML = response  
 
