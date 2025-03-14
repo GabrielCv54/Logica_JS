@@ -16,7 +16,7 @@ function perfectNumber(){
       } */
       if(soma != n){
         isPerfect.innerHTML= `${n} não é um número perfeito!!`
-         divisors.innerHTML =`Divisores são ${divisores}`
+         divisors.innerHTML =`Divisores de ${n} são ${divisores}`
       }else{
          isPerfect.innerHTML = `${n} é perfeito!`
        divisors.innerHTML = `Divisores de ${n} : ${divisores}`
