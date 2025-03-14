@@ -1,13 +1,12 @@
 function stars(){
     var lines = Number(document.querySelector('#line').value) ;
 
-    let response = ''
-    let i = 0
+    let response = '*';
+    var i = 0;
     while(i<lines){        
-        response += '*' +'<br>' 
-
-        i++
+        response *= i +'<br>' 
+        i++;
     }
     
-    document.getElementById('p').innerHTML = response 
+    document.getElementById('p').innerHTML = response ;
 }
