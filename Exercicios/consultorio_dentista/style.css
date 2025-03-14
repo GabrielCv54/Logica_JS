@@ -1,0 +1,25 @@
+body{
+    background-image: url('img/1xg.avif');
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+form{
+    background-color: cornflowerblue;
+    margin: 200px;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+label.dentista{
+  border: 11px outset dodgerblue;
+}
+
+input{
+    padding: 10px;
+}
+
+input.dentista{
+    border:7px inset white ;
+   border-image: url('img/icons8-dente-16\ \(1\).png');
+}
