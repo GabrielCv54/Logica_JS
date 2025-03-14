@@ -15,4 +15,6 @@ form{
     outline: 10px lightsteelblue inset;
     border:10px black outset ;
     margin: 80px;
+    text-align: center;
 }
+

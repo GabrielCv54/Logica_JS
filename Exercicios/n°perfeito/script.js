@@ -5,14 +5,20 @@ function perfectNumber(){
    const divisores =[]
 
    let i = 0
-   let soma
+   let soma=0
    for(i; i<=n; i++)
-      if(n % i == 0  ){
+      if(n % i == 0 && i!=n ){
       divisores.push(i)
-      soma+=divisores[i]
-      
-      if(soma == n){
-       isPerfect.innerHTML = `${n} é perfeito!`
+      soma+=i
+
+     /*  for(divisor in divisores){
+         soma+=divisores[divisor]
+      } */
+      if(soma != n){
+        isPerfect.innerHTML= `${n} não é um número perfeito!!`
+         divisors.innerHTML =`Divisores são ${divisores}`
+      }else{
+         isPerfect.innerHTML = `${n} é perfeito!`
        divisors.innerHTML = `Divisores de ${n} : ${divisores}`
       }
    }
