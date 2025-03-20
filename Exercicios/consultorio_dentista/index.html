@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=pt-br>
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -14,11 +14,13 @@
         <h1>Consultório odontológico</h1>
         <label class="dentista" for="paciente">Paciente</label>
         <input class="dentista" type="text" id="paciente" autofocus>
-        <button onclick="addPaciente()">Adicionar</button>
+        <input type='button' id="button_add" value="Adicionar" onclick="addPaciente()">
         <input type="button" value="Urgência">
         <input type="button" value="Atender">
-        <h3>Atendimento:</h3>
-        <span id="outAtendimento"></span>
+        <h3>Atendimento:
+        <span id="atendimento"></span>
+        </h3>
+        <pre id="lista"></pre>
     </form>
 </body>
 </html>
