@@ -1,0 +1,18 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: darkred;
+}
+
+form{
+    background-color: darkgray;
+    margin: 50px 150px;
+    padding: 100px;
+    border-image: url('imgs/herbie.jpeg');
+}
+
+img{
+    height: 150px;
+    width: 300px;
+    border-radius: 410px;
+}

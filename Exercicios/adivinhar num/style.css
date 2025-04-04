@@ -12,13 +12,20 @@ header{
 
 main{
     background-color: aquamarine;
-    margin: 300px;
-    padding: 200px;
+    margin: 0;
+    padding: 100px;
     border-radius: 30px;
 }
 
-footer{
-   position:fixed;
-   right: 10px;
 
+
+footer{
+   text-align: center;
+   border: 10px solid #00ffff;
+  
+}
+
+#again{
+    padding: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }

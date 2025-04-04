@@ -45,3 +45,15 @@ console.log(text) */
 } */
 
 
+var bigger = false;
+var ages = [22,19,45,88,74,32,85];
+for(var i = 0;i<ages.length;i++ ){
+  if(ages[i] < 18){
+    console.log(ages[i])
+    bigger = true;
+  }
+}
+
+if(!bigger){
+   console.log('Não existem maiores de idade na lista!')
+}
