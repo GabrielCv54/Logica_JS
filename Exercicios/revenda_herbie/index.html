@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Revenda herbie</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="shortcut icon" href="imgs/icons8-herbie-32.png" type="image/x-icon">
     <script src='main.js' defer></script>
@@ -16,9 +16,9 @@
         <input type="text" id="model"><br>
         <label for="price">Preço R$:</label>
         <input type="number" id="price">
-        <button onclick="adicionarCarro()" id="add">Adicionar</button><br>
-        <button onclick="listAll()">Listar todos</button>
-        <button>Filtrar por preço</button><br>
+        <button onclick="adicionarCarro()" id="add" type="button">Adicionar</button><br>
+        <button id="list">Listar todos</button>
+        <button onclick="filterByPrice()" type="button">Filtrar por preço</button><br>
         <p id="added"></p>
         <img src="imgs/herbie.jpeg" alt="herbie">
 

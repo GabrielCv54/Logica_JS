@@ -9,10 +9,12 @@ form{
     margin: 50px 150px;
     padding: 100px;
     border-image: url('imgs/herbie.jpeg');
+    border-radius: 15px;
 }
 
 img{
     height: 150px;
     width: 300px;
     border-radius: 410px;
+    max-width: 100%;
 }

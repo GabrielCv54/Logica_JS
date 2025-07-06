@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Brinquedos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="shortcut icon" href="imgs/icons8-brinquedo-48.png" type="image/x-icon">
+    <script src='main.js' defer></script>
+</head>
+  <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #363636;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        div#fundo_brinquedos  > img{
+            height: 100%;
+            width: 550px;
+            height: 400px;
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        main > section{
+            display: inline-block;
+            
+        }
+    </style>
+<body>
+     <header>
+        <h1>Brinquedoteca</h1>
+     </header>
+
+     <main>
+        <div id="fundo_brinquedos">
+            <img src="imgs/brinquedotea.jpg" alt="toys">
+        </div>
+
+        <section>
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" id="name"> <button onclick="funnyToys()" type="button">Inserir criança</button>             
+                <button>Listar todos</button><br>
+                <label for="age">Idade</label>
+                <input type="number" id="age">
+                <button>Listar por idade</button>
+            </form>
+        </section>
+     </main>
+
+     <footer></footer>
+</body>
+</html>

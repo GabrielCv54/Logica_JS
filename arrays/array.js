@@ -43,3 +43,4 @@ function addPatient(){
 
 var bttn = document.getElementById('btn');
 bttn.addEventListener('click',addPatient)
+
