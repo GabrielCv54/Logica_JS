@@ -30,6 +30,10 @@
             display: inline-block;
             
         }
+
+        main{
+            align-content: center;
+        }
     </style>
 <body>
      <header>
@@ -43,12 +47,16 @@
 
         <section>
             <form>
-                <label for="name">Nome</label>
+                <label for="name"> Nome</label>
                 <input type="text" id="name"> <button onclick="funnyToys()" type="button">Inserir criança</button>             
-                <button>Listar todos</button><br>
-                <label for="age">Idade</label>
-                <input type="number" id="age">
-                <button>Listar por idade</button>
+                <button onclick="showAll()" type="button">Listar todos</button><br>
+                <label for="age"> Idade</label>
+                <input type="number" id="age" >
+                <button>Listar por idade</button><br>
+                <div id="res"> 
+
+
+                </div>
             </form>
         </section>
      </main>

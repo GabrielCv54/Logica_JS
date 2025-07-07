@@ -9,12 +9,29 @@
     <link rel="shortcut icon" href="../imgs/icons8-futebol-16 (1).png" type="image/x-icon">
     <script src='main.js' defer></script>
 </head>
+<style>
+    
+    body{
+        background-image: url('img/Brasileiro.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .soccer{
+       background-color: green;
+       border-radius: 22px;
+       background-image: url('img/icons8-campo-de-futebol-16.png');
+       background-repeat: no-repeat;
+       background-size: 100%;
+    }
+</style>
 <body>
     <div  class="soccer">
         <h1>Jogos Eliminatórios</h1>
         <label for="add">Clube: </label>
         <input type="text" name="add">
-        <input type="button" value="Adicionar clube" onclick="clubs()" id="add"><br>
+        <input type="button" value="Adicionar clube" onclick="addClubs()" id="add"><br>
         <input type="button" value="Listar clubes" id="list">
         <input type="button" value="Montar tabela de jogos" id="table">
         <p id="times"></p>
