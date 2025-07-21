@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>ELiminatórias</title>
+    <title>Eliminatórias</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="shortcut icon" href="../imgs/icons8-futebol-16 (1).png" type="image/x-icon">
@@ -14,7 +14,7 @@
     body{
         background-image: url('img/Brasileiro.png');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
@@ -23,18 +23,22 @@
        border-radius: 22px;
        background-image: url('img/icons8-campo-de-futebol-16.png');
        background-repeat: no-repeat;
-       background-size: 100%;
+       width: 50%;
     }
 </style>
 <body>
-    <div  class="soccer">
+    <div class="soccer">
         <h1>Jogos Eliminatórios</h1>
         <label for="add">Clube: </label>
-        <input type="text" name="add">
+        <input type="text" name="add" id="add">
         <input type="button" value="Adicionar clube" onclick="addClubs()" id="add"><br>
-        <input type="button" value="Listar clubes" id="list">
-        <input type="button" value="Montar tabela de jogos" id="table">
+        <input type="button" value="Listar clubes" id="list" onclick="listAll()">
+        <input type="button" value="Montar tabela de jogos" id="table" onclick="tableOfGames()">
         <p id="times"></p>
+    </div>
+
+    <div id="clubs">
+        
     </div>
 </body>
 </html>

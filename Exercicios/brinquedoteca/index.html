@@ -25,6 +25,10 @@
             max-height: 100%;
             max-width: 100%;
         }
+        
+        main{
+            align-items: center;
+        }
 
         main > section{
             display: inline-block;
@@ -48,15 +52,15 @@
         <section>
             <form>
                 <label for="name"> Nome</label>
-                <input type="text" id="name"> <button onclick="funnyToys()" type="button">Inserir criança</button>             
+                <input type="text" id="name">
+                 <button onclick="funnyToys()" type="button">Inserir criança</button>             
                 <button onclick="showAll()" type="button">Listar todos</button><br>
                 <label for="age"> Idade</label>
                 <input type="number" id="age" >
-                <button>Listar por idade</button><br>
-                <div id="res"> 
-
-
-                </div>
+                <button type="button" onclick="filterByAge()">Listar por idade</button><br>
+                <div id="res"></div>
+                <div id="age"></div>
+                <div id="age2"></div>
             </form>
         </section>
      </main>
