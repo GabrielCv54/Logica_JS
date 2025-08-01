@@ -1,18 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Números em Ordem</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="shortcut icon" href="imgs/icons8-números-100.png" type="image/x-icon">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js' defer></script>
 </head>
 <style>
    body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: cornflowerblue;
-    margin: 0;
-    padding: 0;
+   }
+
+   main > article{
+    background-color: chartreuse;
+    margin: 250px;
+    padding: 26px;
+    text-align: center;
+    border-radius: 36px;
+    width: 500px;
+    height: 100px;
+   }
+
+   footer{
+    text-align: center;
+   }
+
+   p#res{
+    color:rgb(0, 136, 160);
    }
 </style>
 <body>
@@ -24,7 +42,10 @@
         <article id="numbers">
             <label for="number">Número</label>
             <input type="number" id="num" ><br>
-            <input type="button" value="Verificar Ordem">
+            <input type="button" value="Adicionar" id="ad">
+            <input type="button" value="Verificar Ordem" id="analise">
+            <button type="reset" id="reset">Reiniciar</button>
+            <p id="res"></p>
         </article>
     </main>
 
