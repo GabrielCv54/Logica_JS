@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gerador de Crachá</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="shortcut icon" href="imgs/icons8-crachá-48.png" type="image/x-icon">
+    <script src='main.js' defer></script>
+</head>
+<style>
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+
+form{
+    background-color: rgb(131, 0, 0);
+    padding: 65PX;
+    color: white;
+}
+
+input{
+    border-radius: 20px;
+    padding: 5px;
+}
+</style>
+<body>
+    <div>
+        <header>
+            <h1>Programa gerador de nome de crachá</h1>
+        </header>
+        <main>
+            <form>
+                <label for="name">Participante:</label>
+                <input type="text" name="n" id="n"><br>
+                <button type="button" id="badge">Gerar Crachá</button>
+                <div id="response"></div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

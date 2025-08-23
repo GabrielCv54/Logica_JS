@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Últimas notícias</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="shortcut icon" href="imgs/icons8-notícias-50.png" type="image/x-icon">
+    <script src='main.js' defer></script>
+</head>
+<style>
+    body{
+         background-image: url('imgs/images.png');
+         background-repeat: no-repeat;
+         background-size: 100%;
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         color: white;
+         font-size: 20px;
+    }
+
+    div{
+       background-color: rgb(2, 6, 226);
+       /*padding: 50px;*/
+       height: 300px;
+       border-radius: 35px;
+       
+    }
+
+    img[alt='bn']{
+      height: 200px;
+      width: 300px;
+      
+      float: right;
+      border-radius: 35px;
+    }
+
+    input#news{
+        width: 400px;
+        height: 20px;
+        max-width: 100%;
+    }
+
+    footer{
+        color: black;
+        margin: 155px;
+        text-align: center;
+    }
+</style>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <article>
+            <div>
+                <label for="noticia">Notícia: </label>
+                <input type="text" id="news">
+                <button id="add"  onclick="addNews()">Adicionar</button>
+                <button id="list" onclick="listOfNews()" type="button">Listar Últimas Notícias</button><br>
+                <img src="imgs/istockphoto-1369150014-612x612.jpg" alt="bn">
+                <div id="lista"></div>
+                
+            </div>
+            
+        </article>
+    </main>
+    <footer>
+         Feito por Gabriel. 2025
+    </footer>
+</body>
+</html>

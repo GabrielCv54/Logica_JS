@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Qual a Fruta?</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="shortcut icon" href="imgs/icons8-fruta-48.png" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js' defer></script>
+</head>
+<style>
+   body{
+    background-image: url('imgs/images.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   form{
+    background-color: darkgray;
+    padding: 25px;
+
+   }
+</style>
+<body>
+    <header>
+        <h1>Adivinha a fruta</h1>
+    </header>
+
+    <main>
+        <form>
+            <label for="fruit">Fruta</label>
+            <input type="text" id="fruit">
+            <button id="ti" type="button" onclick="assembleTip()">Mostrar dica</button><br><br>
+            <label for="tip" id="tip" >Dica</label>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

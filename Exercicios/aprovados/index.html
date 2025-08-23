@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Aprovados</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel="shortcut icon" href="imgs/icons8-concurso-96.png" type="image/x-icon">
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen'  >
     <script src='main.js' defer>
     </script>
 </head>
@@ -32,6 +32,7 @@
         padding: 10px;
         margin: 15px 20px;
     }
+
 </style>
 
 <body>
@@ -45,9 +46,13 @@
           <input type="number" name="acertos" id="hits">
           <input type="button" value="Adicionar" onclick="addContest()"><br>
           <input type="button" value="Listar Todos" onclick="listAllContest()">
-          <input type="button" value="Aprovados 2ªEtapa">
+          <input type="button" value="Aprovados 2ªEtapa"  id="aprovado" ><br>
+          <p>------------------------------------</p>
 
           <div id="lista"></div>
+
+          <p>------------------------------------</p>
+          <div id="aprovacao"></div>
 
         </article>
     </main>

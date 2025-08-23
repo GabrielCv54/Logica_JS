@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tratamento de erros e exceções</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="shortcut icon" href="img/icons8-erro-48.png" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js' defer></script>
+</head>
+ <style>
+    body{
+        background-image: url('img/jake-walker-MPKQiDpMyqU-unsplash.jpg');
+        background-repeat: no-repeat;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    header , main{
+        background-color: gray;
+        padding: 15px;
+    }
+
+    header{
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+
+    main{
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        
+    }
+
+    input{
+        width: 200px;
+    }
+ </style>
+<body>
+    
+    <header>
+        <h1>Sistema de detecção de erros</h1>
+    </header>
+
+    <main>
+        <div>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name"><br><br>
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="age"><br><br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="em"><br><br>
+                <label for="state">Estado</label>
+                <input type="text" name="state" id="state"><br><br>
+                <button onclick="System()" type="button">Enviar</button>
+                <button onclick="showAllClients()" type="button">Mostrar clientes</button>
+
+                <div id="pa"></div>
+                <div id="finally"></div>
+                <div id="show"></div>
+        </form>
+        </div>
+    </main>
+
+</body>
+</html>
