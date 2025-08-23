@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gerador email</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="shortcut icon" href="imgs/icons8-nova-mensagem-60.png" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<style>
+    header{
+        background-image: url('');
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: cadetblue;
+    }
+
+    main{
+        background-image: linear-gradient(to bottom,gray,rgb(75, 165, 218));
+        width: 250px;
+        height: 500px;
+    }
+
+div>  img{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    right: 0;
+  }
+
+  input{
+    height: 10px;
+    width: 200px;
+  }
+
+    footer{
+        color: wheat;
+        background-color: black;
+        padding: 20px;
+    }      
+</style>
+<body>
+    <div>
+        <header>
+            <h2>Gera Email</h2>
+        </header>
+    </div>
+
+    <div>
+        <main>
+            <label for="func">Funcionário(a): </label>
+            <input type="text" name="func" id="func">
+            
+            <button type="button" id="btn" onclick="emailGenerator()">Gerar</button>
+            <div id="em"></div>
+        </main>
+        <img src="imgs/Email-Open-mail-icon-Graphics-13342456-1.jpg" alt="Email-Open-mail-icon-Graphics-13342456-1">
+    </div>
+
+    <div>
+        <footer>
+            Feito em 23/08
+        </footer>
+    </div>
+</body>
+</html>

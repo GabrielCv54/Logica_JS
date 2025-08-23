@@ -9,7 +9,7 @@ function addClubs(){
    console.log(times)
    for(value of times){
       if(times[value]){
-         alert('Time ja existe na lista , adicione outro')
+         alert('Time  existe na lista , adicione outro')
       } 
    }
    listAll()
@@ -45,7 +45,7 @@ function tableOfGames(){
       //  times[i] += ' x ' + ` ${last}`;
       //}else{
       content = (`${times[i]}  X  ${copy[i]} \n`);
-      p.textContent = (content)      
+      p.textContent = ('Crachá' + (content)) 
      // p.textContent = times[i];
      // p.textContent+='';
 

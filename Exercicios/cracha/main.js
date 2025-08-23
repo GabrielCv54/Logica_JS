@@ -19,7 +19,7 @@ function badgeGenerator(){
 
 
     var p = document.createElement('p');
-    p.textContent = badge;
+    p.textContent =`Crachá:  ${badge}`;
     res.appendChild(p);
 
     alert(`Crachá criado!! ${badge}`);

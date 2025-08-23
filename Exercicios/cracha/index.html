@@ -20,11 +20,17 @@ form{
     background-color: rgb(131, 0, 0);
     padding: 65PX;
     color: white;
+    border-radius: 10px;
 }
 
 input{
     border-radius: 20px;
     padding: 5px;
+}
+
+img{
+    position: absolute;
+    right: 0;
 }
 </style>
 <body>
@@ -37,6 +43,7 @@ input{
                 <label for="name">Participante:</label>
                 <input type="text" name="n" id="n"><br>
                 <button type="button" id="badge">Gerar Crachá</button>
+                <img src="imgs/icons8-crachá-100.png" alt="">
                 <div id="response"></div>
             </form>
         </main>
