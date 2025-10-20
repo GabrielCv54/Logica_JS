@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Senha</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="shortcut icon" href="imgs/icons8-password-50.png" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js' defer></script>
+</head>
+<style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;  
+      background-color: #252525;
+    }
+
+    form{
+        padding: 200px;
+        border-radius: 100px;
+        background-color: springgreen;
+    }
+
+    input[name='password']{
+        width: 200px;
+        height: 20px;
+    }
+
+    button:hover{
+        scale: 90%;
+    }
+
+    div#part{
+        background-color: rgb(30, 42, 216);
+    }
+</style>
+
+<body>
+    <form>
+        <h2>Programa validador de senhas</h2>
+        <label for="password">Senha: </label>
+        <input type="text" id="password" name="password"><br>
+        <button type="button" id="submit">Validar</button>
+        <div id="res"></div>
+    </form>
+
+    <div id="part">
+
+    </div>
+</body>
+</html>
